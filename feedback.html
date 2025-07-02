@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .rating {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    .rating input {
+      display: none;
+    }
+    .rating label {
+      font-size: 2em;
+      color: #ccc;
+      cursor: pointer;
+    }
+    .rating input:checked ~ label,
+    .rating label:hover,
+    .rating label:hover ~ label {
+      color: gold;
+    }
+    .extra-feedback {
+      margin-top: 15px;
+    }
+    select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+  <script>
+    // Immediately check login status before anything renders
+    if (!localStorage.getItem("loggedIn")) {
+      window.location.href = "/feedback.html";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2>Submit Feedback</h2>
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      
+      <div class="rating">
+        <input type="radio" name="rating" id="star5" value="5"><label for="star5">★</label>
+        <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+        <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+        <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+        <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+      </div>
+
+      <select id="category" required>
+        <option value="">-- Select Feedback Category --</option>
+        <option value="Website Design">Website Design</option>
+        <option value="Functionality">Functionality</option>
+        <option value="User Experience">User Experience</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <textarea id="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+    <button onclick="logout()">Logout</button>
+  </div>
+  <div id="notification" class="popup"></div>
+  <script>
+    function logout() {
+      localStorage.removeItem("loggedIn");
+      window.location.href = "/index.html";
+    }
+  </script>
+  <script src="feedback.js" defer></script>
+</body>
+</html>
+
