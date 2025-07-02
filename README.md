@@ -72,7 +72,7 @@ project-folder/
 1. **Clone the repository**
 
 
-   git clone https://github.com/your-username/feedback-collection-system.git
+   git clone https://github.com/your-username/FEEDBACK-COLLECTION-SYSTEM.git
    cd feedback-collection-system
    
 
@@ -146,4 +146,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## 👨‍💻 Developed By
 
 > N. Saikrishna – Final Year B.Tech, IIIT Basar
-> \[Add your GitHub or LinkedIn profile link here]
+https://github.com/saikrishna878
