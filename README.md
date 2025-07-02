@@ -18,15 +18,24 @@ A full-stack web application that allows users to **register**, **log in**, and 
 
 ## 📸 Screenshots
 
-### 🔐 Login/Register Page
+### 🔐 Login Page
 ![Login Page](login.png)
 
+
+### 🔐 Register Page
+![Register Page](register.png)
+
 ### ✍️ Feedback Form
-![Feedback Form](assets/feedback.png)
+![Feedback Form](feedback.png)
 
 ### ✅ Submission Notification
-![Success Popup](assets/success-popup.png)
+![Success Popup](notify.png)
 
+
+### 🔐 data stored
+![Data Page](data.png)
+![feedback stiored Page](datafeedback.png)
+![user Page](userdata.png)
 
 ---
 
