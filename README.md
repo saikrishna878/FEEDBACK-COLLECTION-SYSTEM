@@ -4,7 +4,7 @@ A full-stack web application that allows users to **register**, **log in**, and 
 
 ---
 
-## 🚀 Features
+## Features
 
 * 🔐 **User Authentication** (Register/Login)
 * ⭐ **Star Rating System**
@@ -16,30 +16,30 @@ A full-stack web application that allows users to **register**, **log in**, and 
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🔐 Login Page
+### Login Page
 ![Login Page](login.png)
 
 
-### 🔐 Register Page
+### Register Page
 ![Register Page](register.png)
 
-### ✍️ Feedback Form
+### Feedback Form
 ![Feedback Form](feedback.png)
 
-### ✅ Submission Notification
+###  Submission Notification
 ![Success Popup](notify.png)
 
 
-### 🔐 data stored
+###  data stored
 ![Data Page](data.png)
 ![feedback stiored Page](datafeedback.png)
 ![user Page](userdata.png)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Frontend      | Backend             | Database |
 | ------------- | ------------------- | -------- |
@@ -47,7 +47,7 @@ A full-stack web application that allows users to **register**, **log in**, and 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 
 project-folder/
@@ -114,7 +114,7 @@ project-folder/
 
 ---
 
-## 📬 Feedback Submission
+##  Feedback Submission
 
 Users can submit:
 
@@ -127,17 +127,17 @@ The feedback is stored in MongoDB.
 
 ---
 
-## 📦 Future Enhancements (Optional Ideas)
+##  Future Enhancements (Optional Ideas)
 
-* 📊 Admin Dashboard to view all feedback
-* 📥 Export feedback to CSV
-* 📧 Email notifications on submission
-* 🧾 Display user’s feedback history
-* 🌐 Deploy to platforms like Render, Vercel, or Heroku
+* Admin Dashboard to view all feedback
+* Export feedback to CSV
+* Email notifications on submission
+* Display user’s feedback history
+* Deploy to platforms like Render, Vercel, or Heroku
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
