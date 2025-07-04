@@ -1,4 +1,4 @@
-# ⭐ Feedback Collection System
+# Feedback Collection System
 
 A full-stack web application that allows users to **register**, **log in**, and **submit feedback** with star ratings, feedback category selection, and popup notifications.
 
@@ -6,13 +6,13 @@ A full-stack web application that allows users to **register**, **log in**, and 
 
 ## Features
 
-* 🔐 **User Authentication** (Register/Login)
-* ⭐ **Star Rating System**
-* 📂 **Feedback Category Dropdown**
-* 💬 **Text Feedback Input**
-* 🔔 **Notification Popups**
-* 🚪 **Logout Functionality**
-* 🔒 **Access Control** (only logged-in users can submit feedback)
+*  **User Authentication** (Register/Login)
+*  **Star Rating System**
+*  **Feedback Category Dropdown**
+*  **Text Feedback Input**
+*  **Notification Popups**
+*  **Logout Functionality**
+*  **Access Control** (only logged-in users can submit feedback)
 
 ---
 
